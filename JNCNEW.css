@@ -338,3 +338,28 @@ form button {
 form button:hover {
   background-color: #0056b3;
 }
+
+/* Make labels white so they show up on your dark background */
+form label {
+  display: block;
+  color: white;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+/* Add spacing so the form isn't squashed */
+form {
+  padding: 20px;
+  background-color: #1a1a1a; /* Adds a subtle dark container */
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* Ensure inputs are full width and easy to click */
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  display: block;
+}
