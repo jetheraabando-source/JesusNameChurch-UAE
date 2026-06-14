@@ -286,3 +286,55 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
         font-size: 2rem;
     }
 }
+
+/* Container to keep the form centered and readable */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Style the labels so they stack properly */
+form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Style the inputs and textareas to look uniform */
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't break the width */
+}
+
+/* Make the textarea taller */
+form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+/* Style the button */
+form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Add a hover effect for better user feedback */
+form button:hover {
+  background-color: #0056b3;
+}
